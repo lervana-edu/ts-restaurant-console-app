@@ -5,6 +5,7 @@
 ### Prerequisites
 - Node v16.17.1
 - NPM v8.15.0
+- NVM
 
 ### Base app
 
@@ -28,3 +29,8 @@
 2. Rename `index.js` to `index.ts`: `mv src/index.js src/index.ts`. 
 3. Rename `index.js` occurrences in package.json to `index.ts`: `npm pkg set scripts.start="node src/index.ts"` and `npm pkg set scripts.dev="npx nodemon src/index.ts"`.
 4. Run index.js file by dev script: `npm run dev`.
+
+### Add tools
+- Prettier and Dotenv: `npm install -D prettier dotenv`
+- Prompt: `npm install prompt` `npm install -D @types/prompt`
+
